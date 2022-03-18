@@ -22,11 +22,14 @@
 
 ## Tints:
 
+-   #fdf2e9
+
 ## Shades:
 
 ## Greys:
 
 -   #555
+-   #333
 
 ---
 
