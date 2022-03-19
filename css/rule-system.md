@@ -15,7 +15,13 @@ Bold: 700
 
 Default: 1
 Small: 1.05
+medium: 1.2
 Paragrph default: 1.6
+
+## Letter spacing
+
+-0.5px
+0.75px
 
 ---
 
@@ -28,6 +34,7 @@ Paragrph default: 1.6
 ## Tints:
 
 -   #fdf2e9
+-   #fae5d3
 
 ## Shades:
 
