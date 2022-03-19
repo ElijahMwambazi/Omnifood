@@ -6,11 +6,16 @@
 
 ## Font weighs
 
--Default: 400
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
 
 ## Line heights
 
--   Default: 1
+Default: 1
+Small: 1.05
+Paragrph default: 1.6
 
 ---
 
@@ -39,7 +44,7 @@
 
 # --- 04 BORDER RADIUS ---
 
----
+Default: 9px
 
 # --- 05 WHITE SPACE ---
 
