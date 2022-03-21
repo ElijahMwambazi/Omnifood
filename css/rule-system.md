@@ -52,6 +52,7 @@ Paragrph default: 1.6
 # --- 04 BORDER RADIUS ---
 
 Default: 9px
+11px
 
 # --- 05 WHITE SPACE ---
 
