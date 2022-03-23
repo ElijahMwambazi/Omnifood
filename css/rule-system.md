@@ -44,6 +44,8 @@ Paragrph default: 1.6
 
 ## Greys:
 
+-   #888
+-   #767676
 -   #6f6f6f
 -   #555
 -   #333
