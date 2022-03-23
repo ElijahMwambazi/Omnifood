@@ -20,8 +20,8 @@ Paragrph default: 1.6
 
 ## Letter spacing
 
--0.5px
-0.75px
+-   0.5px
+-   0.75px
 
 ---
 
@@ -35,17 +35,26 @@ Paragrph default: 1.6
 
 -   #fdf2e9
 -   #fae5d3
+-   #eb984e
 
 ## Shades:
 
+-   #cf711f
+-   #45200a
+
 ## Greys:
 
+-   #6f6f6f
 -   #555
 -   #333
 
 ---
 
 # --- 03 SHADOWS ---
+
+-   0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
+-   0 3.2rem 6.4rem rgba(0, 0, 0, 0.06)
+-   0 1px 2px rgba(0, 0, 0, 0.1)
 
 ---
 
