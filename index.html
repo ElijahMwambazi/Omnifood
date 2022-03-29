@@ -4,6 +4,14 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+        />
+
+        <link rel="icon" href="img/favicon.png" />
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+        <link rel="manifest" href="manifest.webmanifest" />
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -24,13 +32,18 @@
             src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
         ></script>
 
-        <title>Omnifood</title>
+        <script
+            scr="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+        ></script>
+        <script defer src="js/script.js"></script>
+
+        <title>Omnifood &mdash; Never cook again!</title>
     </head>
 
     <body>
         <!-- HEADER -->
         <header class="header">
-            <a href="index.html">
+            <a href="#">
                 <img
                     src="img/omnifood-logo.png"
                     alt="Omnifood logo"
@@ -40,12 +53,20 @@
 
             <nav class="main-nav">
                 <ul class="main-nav-list">
-                    <li><a class="main-nav-link" href="#">How it works</a></li>
-                    <li><a class="main-nav-link" href="#">Meals</a></li>
-                    <li><a class="main-nav-link" href="#">Testimonials</a></li>
-                    <li><a class="main-nav-link" href="#">Pricing</a></li>
                     <li>
-                        <a class="main-nav-link nav-cta" href="#"
+                        <a class="main-nav-link" href="#hiw">How it works</a>
+                    </li>
+                    <li><a class="main-nav-link" href="#meals">Meals</a></li>
+                    <li>
+                        <a class="main-nav-link" href="#testimonials"
+                            >Testimonials</a
+                        >
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link nav-cta" href="#cta"
                             >Try for free</a
                         >
                     </li>
@@ -153,7 +174,7 @@
             </section>
 
             <!-- HOW IT WORKS SECTION -->
-            <section class="section-how-it-works">
+            <section class="section-how-it-works" id="hiw">
                 <div class="container">
                     <span class="subheading">How it works</span>
                     <h2 class="heading-secondary">
@@ -227,7 +248,7 @@
             </section>
 
             <!-- MEALS AND DIETS SECTION -->
-            <section class="section-meals">
+            <section class="section-meals" id="meals">
                 <div class="container center-text">
                     <span class="subheading">Meals</span>
                     <h2 class="heading-secondary">
@@ -401,7 +422,7 @@
             </section>
 
             <!-- TESTIMONIAL AND GALLERY SECTION -->
-            <section class="section-testimonials">
+            <section class="section-testimonials" id="testimonials">
                 <!-- TESTIMAONIAL -->
                 <div class="testimonials-container">
                     <span class="subheading">Testimonials</span>
@@ -556,7 +577,7 @@
             </section>
 
             <!-- PRICING AND FEATURES SECTION -->
-            <section class="section-pricing">
+            <section class="section-pricing" id="pricing">
                 <!-- PRICING -->
                 <div class="container">
                     <span class="subheading">Pricing</span>
@@ -713,7 +734,7 @@
             </section>
 
             <!-- CALL TO ACTION SECTION -->
-            <section class="section-cta">
+            <section class="section-cta" id="cta">
                 <div class="container">
                     <div class="cta">
                         <div class="cta-text-box">
@@ -786,7 +807,7 @@
         <footer class="footer">
             <div class="container grid grid--footer">
                 <div class="logo-col">
-                    <a href="index.html" class="footer-logo">
+                    <a href="#" class="footer-logo">
                         <img
                             src="img/omnifood-logo.png"
                             alt="Omnifood logo"
@@ -822,8 +843,8 @@
                     </ul>
 
                     <p class="copyright">
-                        Copyright &copy; 2027 by Omnifood, Inc. All rights
-                        reserved.
+                        Copyright &copy; <span class="year">2027</span> by
+                        Omnifood, Inc. All rights reserved.
                     </p>
                 </div>
                 <div class="address-col">
